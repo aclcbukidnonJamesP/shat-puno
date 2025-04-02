@@ -4,10 +4,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: magenta;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.demo8.HelloController">
+<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: magenta;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo8.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
+   <Label prefHeight="47.0" prefWidth="200.0" text="LOGIN" textAlignment="CENTER" />
+   <Button mnemonicParsing="false" prefHeight="92.0" prefWidth="159.0" text="Button" />
    <Button mnemonicParsing="false" text="Button" />
    <Button mnemonicParsing="false" text="Button" />
 
