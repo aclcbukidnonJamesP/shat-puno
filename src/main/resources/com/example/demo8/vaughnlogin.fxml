@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="399.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="MESSENGER" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="30.0" />
+            </font>
+        </Label>
+        <Label text="Login" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <VBox.margin>
+                <Insets top="40.0" />
+            </VBox.margin>
+        </Label>
+        <Label text="Please enter your email and password" textFill="WHITE">
+            <font>
+                <Font name="Calibri Italic" size="12.0" />
+            </font>
+        </Label>
+        <TextField maxWidth="-Infinity" prefHeight="25.0" prefWidth="230.0" promptText="Email" style="-fx-border-color: white; -fx-background-color: transparent;">
+            <VBox.margin>
+                <Insets bottom="5.0" top="30.0" />
+            </VBox.margin>
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </TextField>
+        <PasswordField maxWidth="-Infinity" prefHeight="25.0" prefWidth="230.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: white;">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></PasswordField>
+        <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="Forgot password?" textFill="WHITE">
+            <font>
+                <Font name="Calibri Italic" size="12.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="130.0" />
+            </VBox.margin>
+        </Button>
+        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="103.0" style="-fx-background-color: white;" text="Login">
+            <VBox.margin>
+                <Insets top="20.0" />
+            </VBox.margin>
+            <font>
+                <Font name="Calibri Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="Sign-up" textFill="WHITE">
+            <font>
+                <Font name="Calibri Italic" size="12.0" />
+            </font>
+        </Button>
+        <HBox alignment="CENTER" prefHeight="17.0" prefWidth="399.0">
+            <children>
+                <Label text="Not a member yet?" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="11.0" />
+                    </font>
+                </Label>
+                <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: transparent;" text="Register!" textFill="WHITE">
+                    <font>
+                        <Font name="System Italic" size="11.0" />
+                    </font>
+                </Button>
+            </children>
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </HBox>
+    </children>
+    <padding>
+        <Insets top="50.0" />
+    </padding>
+</VBox>
